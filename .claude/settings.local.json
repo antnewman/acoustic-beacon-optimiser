@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git remote:*)",
+      "Bash(pip install:*)",
+      "Bash(pip index:*)",
+      "Bash(python -c \"import sys; print\\(sys.version\\)\")",
+      "Bash(ruff check:*)",
+      "Bash(python -m ruff check src/ tests/)",
+      "Bash(python -m ruff check --fix src/ tests/)",
+      "Bash(python -m pytest tests/ -v)",
+      "Bash(python -m abo.cli --help)",
+      "Bash(git config:*)",
+      "Bash(git status:*)",
+      "Bash(git checkout:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git init:*)"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "acoustic-beacon-optimiser"
+version: 0.1.0
+date-released: "2026-04-14"
+license: MIT
+repository-code: "https://github.com/antnewman/acoustic-beacon-optimiser"
+abstract: >-
+  BEM solver and shape optimiser for bat-pollinated floral acoustic
+  reflectors. Computes acoustic scattering from parameterised concave
+  reflectors and optimises shapes against biologically meaningful
+  objective functions.
+authors:
+  - family-names: Newman
+    given-names: Ant
+keywords:
+  - acoustics
+  - boundary element method
+  - echolocation
+  - shape optimisation
+  - biomimetics
+  - bat-pollinated flowers
