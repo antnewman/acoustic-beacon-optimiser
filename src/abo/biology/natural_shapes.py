@@ -52,9 +52,11 @@ MUCUNA_HOLTONII = NaturalReflector(
     source="von Helversen and von Helversen (1999)",
 )
 
-# Simon et al. (2020) spherical cap configurations
+# Simon et al. (2020) spherical cap configurations.
+# Note: r=35 with d=49 is geometrically impossible (d > r) and excluded.
 SIMON_2020_CONFIGS: list[dict[str, float]] = [
     {"radius_mm": r, "depth_mm": d}
     for r in [35.0, 50.0, 70.0]
     for d in [25.0, 30.0, 49.0]
+    if d <= r
 ]
