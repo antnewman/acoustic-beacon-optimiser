@@ -30,3 +30,8 @@ env/
 *.vtk
 *.vtu
 *.msh
+
+# Optimisation outputs and figure binaries (reproducible from notebooks)
+results/
+paper/figures/*.png
+paper/figures/*.pdf
